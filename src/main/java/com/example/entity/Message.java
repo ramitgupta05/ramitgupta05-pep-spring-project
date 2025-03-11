@@ -103,6 +103,7 @@ public class Message {
     /**
      * Properly named getters and setters are necessary for Jackson ObjectMapper to work. You may use them as well.
      * @param messageText
+     * @return 
      */
     public void setMessageText(String messageText) {
         this.messageText = messageText;
@@ -172,6 +173,5 @@ public class Message {
                 ", timePostedEpoch=" + timePostedEpoch +
                 '}';
     }
-
-
+    
 }

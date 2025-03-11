@@ -141,4 +141,8 @@ public class Account {
                 ", password='" + password + '\'' +
                 '}';
     }
+    public boolean exists() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'exists'");
+    }
 }
